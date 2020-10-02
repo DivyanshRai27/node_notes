@@ -34,7 +34,7 @@ const removeNote = (title) => {
 }
 const listNotes = (title) => {
     const notes = loadNotes()
-    console.log(chalk.inverse('Your notes'))
+    console.log(chalk.inverse('Your notes are here'))
 
     notes.forEach((note) =>{
         console.log(note.title)
